@@ -1,0 +1,18 @@
+vendor/
+composer.lock
+.DS_Store
+
+#useless everywhere
+unused/
+temp/
+*Kopie*
+Thumbs.db
+
+#nope
+/farah/config.php
+/log
+/tmp
+
+#public
+/public/*
+!/public/*.php
