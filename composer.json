@@ -1,17 +1,17 @@
 {
-    "require": {
-		"slothsoft/amber": "dev-master",
-		"slothsoft/core": "dev-master",
-		"slothsoft/savegame": "dev-master",
-		"slothsoft/chat": "dev-master",
-		"slothsoft/dbms": "dev-master",
-		"slothsoft/minecraft": "dev-master",
-		"slothsoft/slothsoft": "dev-master",
-		"slothsoft/farah": "dev-master",
-		"slothsoft/lang": "dev-master",
-		"slothsoft/sse": "dev-master",
-		
-		"phpunit/phpunit": ">=6.0",
-		"php": ">=7.0"
-    }
+	"require" : {
+		"slothsoft/amber" : "dev-master",
+		"slothsoft/core" : "dev-master",
+		"slothsoft/savegame" : "dev-master",
+		"slothsoft/chat" : "dev-master",
+		"slothsoft/dbms" : "dev-master",
+		"slothsoft/minecraft" : "dev-master",
+		"slothsoft/slothsoft" : "dev-master",
+		"slothsoft/farah" : "dev-master",
+		"slothsoft/lang" : "dev-master",
+		"slothsoft/sse" : "dev-master",
+		"slothsoft/fireemblem" : "dev-master",
+		"phpunit/phpunit" : ">=6.0",
+		"php" : ">=7.0"
+	}
 }
