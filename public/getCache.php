@@ -6,6 +6,7 @@ require_once __DIR__ . '/../farah/constants.php';
 $path = isset($_SERVER['PATH_INFO'])
 	? $_SERVER['PATH_INFO']
 	: '';
-$mode = HTTPDocument::LOOKUP_CACHE;
+	$mode = Kernel::LOOKUP_CACHE;
 
-HTTPDocument::parseRequest($path, $mode);
+$request = Kernel::parseRequest($path, $mode);
+$request->send();

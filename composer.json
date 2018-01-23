@@ -29,7 +29,9 @@
 		"slothsoft/webrtc" : "dev-master",
 		"slothsoft/dev" : "dev-master",
 		
-		"phpunit/phpunit" : ">=6.0",
 		"php" : ">=7.0"
+	},
+	"require-dev" : {	
+		"phpunit/phpunit" : ">=6.0"
 	}
 }

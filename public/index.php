@@ -16,6 +16,7 @@ if (substr($path, -1) !== '/' and strpos($path, '.') === false) {
 	die();
 }
 
-$mode = HTTPDocument::LOOKUP_PAGE;
+$mode = Kernel::LOOKUP_PAGE;
 
-HTTPDocument::parseRequest($path, $mode);
+$response = Kernel::parseRequest($path, $mode);
+$response->send();
