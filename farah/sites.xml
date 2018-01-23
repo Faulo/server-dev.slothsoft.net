@@ -14,6 +14,7 @@
 		<page name="backend.slothsoft.net" title="backend.slothsoft.net"
 			module="slothsoft" ref="backend" status-active="" status-public="">
 			<res ref="/slothsoft/sites-backend"/>
+			<page name="validate" ref="data/validate/farah" module="farah"/>
 		</page>
 		<page name="daniel-schulz.slothsoft.net" title="daniel-schulz.slothsoft.net"
 			module="daniel" ref="default" status-active="" status-public="">
