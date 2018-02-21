@@ -9,52 +9,51 @@
 		module="slothsoft" ref="home" status-active="" status-public="">
 		<page name="slothsoft.net" title="slothsoft.net"
 			module="slothsoft" ref="home" status-active="" status-public="">
-			<res ref="/slothsoft/sites"/>
+			<include-pages ref="//slothsoft/pages/sites"/>
 		</page>
 		<page name="backend.slothsoft.net" title="backend.slothsoft.net"
 			module="slothsoft" ref="backend" status-active="" status-public="">
-			<res ref="/slothsoft/sites-backend"/>
-			<page name="validate" ref="data/validate/farah" module="farah"/>
+			<include-pages ref="//slothsoft/pages/sites.backend"/>
 		</page>
 		<page name="daniel-schulz.slothsoft.net" title="daniel-schulz.slothsoft.net"
 			module="daniel" ref="default" status-active="" status-public="">
-			<res ref="/daniel/sites"/>
+			<include-pages ref="//daniel/pages/sites"/>
 		</page>
 	</domain>
 	
 	<domain name="backend.slothsoft.net" title="backend.slothsoft.net" dict-languages="en-us"
 		module="slothsoft" ref="backend" status-active="" status-public="">
-		<res ref="/slothsoft/sites-backend"/>
+		<include-pages ref="//slothsoft/pages/sites.backend"/>
 		<page name="sitemap" ref="/core/sitemap" status-active=""/>
 	</domain>
 	
 	<domain name="daniel-schulz.slothsoft.net" title="daniel-schulz.slothsoft.net" dict-languages="en-us"
 		module="daniel" ref="default" status-active="" status-public="">
-		<res ref="/daniel/sites"/>
+		<include-pages ref="//daniel/pages/sites"/>
 		<page name="sitemap" ref="/core/sitemap" status-active=""/>
 	</domain>
 	
 	<domain name="dev.slothsoft.net" title="dev.slothsoft.net" dict-languages="en-us"
 		module="dev" status-active="">
-		<res ref="/dev/sites"/>
+		<include-pages ref="//dev/pages/sites"/>
 		<page name="sitemap" ref="/core/sitemap" status-active=""/>
 	</domain>
 	
 	<domain name="twitter.slothsoft.net" title="twitter.slothsoft.net" dict-languages="en-us"
 		module="twitter" status-active="">
-		<res ref="/twitter/sites"/>
+		<include-pages ref="//twitter/pages/sites"/>
 		<page name="sitemap" ref="/core/sitemap" status-active=""/>
 	</domain>
 	
 	<domain name="mtg.slothsoft.net" title="mtg.slothsoft.net" dict-languages="en-us"
 		module="mtg" ref="search" status-active="">
-		<res ref="/mtg/sites"/>
+		<include-pages ref="//mtg/pages/sites"/>
 		<page name="sitemap" ref="/core/sitemap" status-active=""/>
 	</domain>
 	
 	<domain name="schema.slothsoft.net" title="schema.slothsoft.net" dict-languages="en-us"
 		module="schema" ref="index" status-active="">
-		<res ref="/schema/sites"/>
+		<include-pages ref="//schema/pages/sites"/>
 		<page name="sitemap" ref="/core/sitemap" status-active=""/>
 	</domain>
 </data>

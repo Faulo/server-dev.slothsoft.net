@@ -8,6 +8,6 @@
 	ref="search" status-active="" status-public=""
 	sfd:languages="de-de en-us">
 	
-	<include-pages ref="sites"/>
+	<include-pages ref="pages/sites"/>
 	
 </domain>
