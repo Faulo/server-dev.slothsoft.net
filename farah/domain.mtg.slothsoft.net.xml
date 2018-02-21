@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<domain 
+	xmlns="http://schema.slothsoft.net/farah/sites"
+	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
+	name="mtg.slothsoft.net"
+	vendor="slothsoft"
+	module="mtg"
+	ref="search" status-active="" status-public=""
+	sfd:languages="de-de en-us">
+	
+	<include-pages ref="sites"/>
+	
+</domain>
