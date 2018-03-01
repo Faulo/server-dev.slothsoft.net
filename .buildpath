@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/pthreads"/>
+	<buildpathentry kind="src" path="vendor/slothsoft/farah/src"/>
 	<buildpathentry kind="src" path="farah"/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/Saxon"/>
-	<buildpathentry kind="src" path="vendor"/>
+	<buildpathentry excluding="slothsoft/farah/src/" kind="src" path="vendor"/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/COM"/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/DS"/>
