@@ -1,37 +1,219 @@
 {
-	"require" : {	
+	"keywords" : [
+		"slothsoft",
+		"farah"
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Slothsoft\\DevSlothsoftNet\\" : "src/"
+		},
+		"files" : [
+			"farah/config.php"
+		]
+	},
+	"name" : "slothsoft/dev.slothsoft.net",
+	"type" : "project",
+	"description" : "dev.slothsoft.net",
+	"license" : "GPL",
+	"require" : {
+		"php" : ">=7.0",
 		"slothsoft/amber" : "dev-master",
-		"slothsoft/core" : "dev-master",
-		"slothsoft/savegame" : "dev-master",
 		"slothsoft/chat" : "dev-master",
-		"slothsoft/dbms" : "dev-master",
-		"slothsoft/minecraft" : "dev-master",
-		"slothsoft/slothsoft" : "dev-master",
-		"slothsoft/farah" : "dev-master",
-		"slothsoft/lang" : "dev-master",
-		"slothsoft/sse" : "dev-master",
-		"slothsoft/fireemblem" : "dev-master",
-		"slothsoft/pt" : "dev-master",
-		"slothsoft/twitter" : "dev-master",
-		"slothsoft/w3c" : "dev-master",
 		"slothsoft/comics" : "dev-master",
+		"slothsoft/core" : "dev-master",
 		"slothsoft/cron" : "dev-master",
 		"slothsoft/daniel" : "dev-master",
+		"slothsoft/dbms" : "dev-master",
+		"slothsoft/dev" : "dev-master",
 		"slothsoft/dragonage" : "dev-master",
 		"slothsoft/extensions" : "dev-master",
+		"slothsoft/farah" : "dev-master",
+		"slothsoft/fireemblem" : "dev-master",
+		"slothsoft/lang" : "dev-master",
+		"slothsoft/minecraft" : "dev-master",
 		"slothsoft/mtg" : "dev-master",
 		"slothsoft/pokemon" : "dev-master",
+		"slothsoft/pt" : "dev-master",
+		"slothsoft/savegame" : "dev-master",
 		"slothsoft/schema" : "dev-master",
+		"slothsoft/slothsoft" : "dev-master",
+		"slothsoft/sse" : "dev-master",
 		"slothsoft/talesof" : "dev-master",
 		"slothsoft/tetris" : "dev-master",
 		"slothsoft/therapy" : "dev-master",
-		"slothsoft/whatthehell" : "dev-master",
+		"slothsoft/twitter" : "dev-master",
+		"slothsoft/w3c" : "dev-master",
 		"slothsoft/webrtc" : "dev-master",
-		"slothsoft/dev" : "dev-master",
-		
-		"php" : ">=7.0"
+		"slothsoft/whatthehell" : "dev-master"
 	},
-	"require-dev" : {	
-		"phpunit/phpunit" : ">=6.0"
-	}
+	"repositories" : [{
+			"type" : "path",
+			"url" : "../slothsoft-amber",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-chat",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-comics",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-core",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-cron",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-daniel",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-dbms",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-dev",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-dragonage",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-extensions",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-farah",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-fireemblem",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-lang",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-minecraft",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-mtg",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-pokemon",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-pt",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-savegame",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-schema",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-slothsoft",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-sse",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-talesof",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-tetris",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-therapy",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-twitter",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-w3c",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-webrtc",
+			"options" : {
+				"symlink" : true
+			}
+		}, {
+			"type" : "path",
+			"url" : "../slothsoft-whatthehell",
+			"options" : {
+				"symlink" : true
+			}
+		}
+	]
 }
