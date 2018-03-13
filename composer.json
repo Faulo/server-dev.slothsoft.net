@@ -1,20 +1,17 @@
 {
+	"name" : "slothsoft/dev.slothsoft.net",
+	"type" : "project",
+	"description" : "dev.slothsoft.net",
+	"license" : "GPL",
 	"keywords" : [
 		"slothsoft",
 		"farah"
 	],
 	"autoload" : {
-		"psr-4" : {
-			"Slothsoft\\DevSlothsoftNet\\" : "src/"
-		},
 		"files" : [
 			"farah/config.php"
 		]
 	},
-	"name" : "slothsoft/dev.slothsoft.net",
-	"type" : "project",
-	"description" : "dev.slothsoft.net",
-	"license" : "GPL",
 	"require" : {
 		"php" : ">=7.0",
 		"slothsoft/amber" : "dev-master",
