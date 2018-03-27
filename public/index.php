@@ -1,6 +1,7 @@
 <?php
 
 use Slothsoft\Farah\Kernel;
+use Slothsoft\Farah\RequestProcessor\PageRequestProcessor;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
@@ -17,7 +18,4 @@ if (substr($path, -1) !== '/' and strpos($path, '.') === false) {
 	die();
 }
 
-$mode = Kernel::LOOKUP_PAGE;
-
-$response = Kernel::parseRequest($path, $mode);
-$response->send();
+Kernel::processPathRequest($path, new PageRequestProcessor());
