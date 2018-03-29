@@ -3,12 +3,12 @@
 	xmlns="http://schema.slothsoft.net/farah/sites"
 	xmlns:sfd="http://schema.slothsoft.net/farah/dictionary"
 	xmlns:sfm="http://schema.slothsoft.net/farah/module"
-	name="slothsoft.net"
+	name="dev-slothsoft.net"
 	vendor="slothsoft"
-	module="slothsoft"
+	module="dev"
 	ref="home" status-active="" status-public=""
 	sfd:languages="de-de en-us">
 	
-	<include-pages ref="pages/slothsoft.net"/>
+	<include-pages ref="sites/dev.slothsoft.net"/>
 	
 </domain>
