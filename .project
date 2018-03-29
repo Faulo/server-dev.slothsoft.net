@@ -3,7 +3,6 @@
 	<name>localhost</name>
 	<comment></comment>
 	<projects>
-		<project>slothsoft-dev</project>
 		<project>slothsoft-core</project>
 		<project>slothsoft-farah</project>
 		<project>slothsoft-mtg</project>
