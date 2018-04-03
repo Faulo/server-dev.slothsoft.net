@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>localhost</name>
+	<name>server-dev.slothsoft.net</name>
 	<comment></comment>
 	<projects>
 		<project>slothsoft-core</project>
 		<project>slothsoft-farah</project>
-		<project>slothsoft-mtg</project>
+		<project>slothsoft-dev</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
