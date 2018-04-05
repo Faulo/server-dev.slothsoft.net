@@ -1,1 +1,3 @@
-allow: all
+User-agent: *
+Allow: /
+Sitemap: http://dev.slothsoft.net/sitemap/

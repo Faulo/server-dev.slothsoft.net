@@ -4,8 +4,8 @@
 	<comment></comment>
 	<projects>
 		<project>slothsoft-core</project>
-		<project>slothsoft-farah</project>
 		<project>slothsoft-dev</project>
+		<project>slothsoft-farah</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
