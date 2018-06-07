@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	version="1.1" baseProfile="tiny"			
+	contentScriptType="application/javascript"
+	contentStyleType="text/css"
+	preserveAspectRatio="xMidYMid"
+	
+	color-rendering="optimizeSpeed"
+	shape-rendering="optimizeSpeed"
+	text-rendering="optimizeSpeed"
+	image-rendering="optimizeSpeed"
+	>
+	<filter id="dropShadow">
+		<feMorphology operator="dilate" radius="2" result="background" in="SourceAlpha"/>
+		<feMerge>
+			<feMergeNode in="background"/>
+			
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<filter id="blackOutline">
+		<feMorphology operator="dilate" radius="2"
+			in="SourceAlpha"
+			result="Outline"/>
+		<feMerge>
+			<feMergeNode in="Outline"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<filter id="greyOutline">
+		<feFlood flood-color="#111" result="color"/>
+		<feComposite operator="in"
+			in="color"
+			in2="SourceAlpha"
+			result="StrokeAlpha"/>
+		<feMorphology operator="dilate" radius="2"
+			in="StrokeAlpha"
+			result="Outline"/>
+		<feMerge>
+			<feMergeNode in="Outline"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<filter id="silverOutline">
+		<feFlood flood-color="silver" result="color"/>
+		<feComposite operator="in"
+			in="color"
+			in2="SourceAlpha"
+			result="StrokeAlpha"/>
+		<feMorphology operator="dilate" radius="2"
+			in="StrokeAlpha"
+			result="Outline"/>
+		<feMerge>
+			<feMergeNode in="Outline"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<filter id="strokeOutline">
+		<feComposite operator="in"
+			in="StrokePaint"
+			in2="SourceAlpha"
+			result="StrokeAlpha"/>
+		<feMorphology operator="dilate" radius="2"
+			in="StrokeAlpha"
+			result="Outline"/>
+		<feMerge>
+			<feMergeNode in="Outline"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+	<filter id="gammaOutline">
+		<feFlood flood-color="#111" result="color"/>
+		<feComposite operator="in"
+			in="color"
+			in2="SourceAlpha"
+			result="StrokeAlpha"/>
+		<feMorphology operator="dilate" radius="2"
+			in="StrokeAlpha"
+			result="Outline"/>
+		<feMerge result="blackOutline">
+			<feMergeNode in="Outline"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+		<feComponentTransfer in="blackOutline">
+			<feFuncR type="gamma" amplitude="3"/>
+			<feFuncG type="gamma" amplitude="3"/>
+			<feFuncB type="gamma" amplitude="3"/>
+		</feComponentTransfer>
+	</filter>
+	<filter id="clickOutline">
+		<feFlood flood-color="#111" result="color"/>
+		<feComposite operator="in"
+			in="color"
+			in2="SourceAlpha"
+			result="StrokeAlpha"/>
+		<feMorphology operator="dilate" radius="2"
+			in="StrokeAlpha"
+			result="Outline"/>
+		<feMerge result="blackOutline">
+			<feMergeNode in="Outline"/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+		<feComponentTransfer in="blackOutline" result="gammaOutline">
+			<feFuncR type="gamma" amplitude="3"/>
+			<feFuncG type="gamma" amplitude="3"/>
+			<feFuncB type="gamma" amplitude="3"/>
+		</feComponentTransfer>
+		<feOffset in="gammaOutline" dx="1" dy="1"/>
+	</filter>
+</svg>

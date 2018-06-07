@@ -1,0 +1,48 @@
+/* Filter */
+svg {
+	background-color: #111;
+}
+
+text {
+	fill: white;
+	/*filter: url(/getResource.php/dev/GameOfLife.Filter#greyOutline);*/
+}
+text[data-highlight]:hover {
+	filter: url(/getResource.php/dev/GameOfLife.Filter#gammaOutline);
+}
+text[data-highlight]:active {
+	filter: url(/getResource.php/dev/GameOfLife.Filter#clickOutline);
+}
+.menu-button > rect {
+	filter:url(/getResource.php/dev/GameOfLife.Filter#silverOutline);
+	pointer-events: fill;
+}
+.menu-button > rect:hover + text {
+	filter: url(/getResource.php/dev/GameOfLife.Filter#gammaOutline);
+}
+.menu-button > rect:active {
+	filter:url(/getResource.php/dev/GameOfLife.Filter#greyOutline);
+}
+.menu-button > rect:active + text {
+	filter: url(/getResource.php/dev/GameOfLife.Filter#clickOutline);
+}
+
+*[data-peep-state="child"] > rect {
+	stroke: rgba(0, 255, 255, 0.5);
+}
+*[data-peep-state="adult"] > rect {
+	stroke: rgba(0, 255, 0, 0.5);
+}
+*[data-peep-state="old"] > rect {
+	stroke: rgba(127, 127, 0, 0.5);
+}
+*[data-peep-state="dying"] > rect {
+	stroke: rgba(127, 127, 127, 0.5);
+}
+
+rect {
+	/*
+	fill: transparent;
+	stroke: transparent;
+	*/
+}

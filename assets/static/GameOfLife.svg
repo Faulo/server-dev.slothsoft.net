@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+	version="1.1" baseProfile="tiny"			
+	contentScriptType="application/javascript"
+	contentStyleType="text/css"
+	preserveAspectRatio="xMidYMid"
+	
+	color-rendering="optimizeSpeed"
+	shape-rendering="optimizeSpeed"
+	text-rendering="optimizeSpeed"
+	image-rendering="optimizeSpeed"
+	>
+	<defs>
+		<g class="peep">
+			<rect/>
+		</g>
+	</defs>
+	<!--<text id="tooltip" text-anchor="middle"/>-->
+</svg>

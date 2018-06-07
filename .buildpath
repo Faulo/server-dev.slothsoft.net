@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <buildpath>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-amber"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-blob"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-chat"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-comics"/>
 	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-dev"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-cron"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-dragonage"/>
 	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-fireemblem"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-lang"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-minecraft"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-mtg"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-pokemon"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-savegame"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-schema"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-slothsoft"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-sse"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-talesof"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-tetris"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-therapy"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-twitter"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-w3c"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-webrtc"/>
+	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-whatthehell"/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/COM"/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/DS"/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/Saxon"/>
 	<buildpathentry kind="con" path="org.eclipse.dltk.USER_LIBRARY/pthreads"/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="composer" value="source"/>
+		</attributes>
+	</buildpathentry>
 	<buildpathentry kind="src" path="tests">
 		<attributes>
 			<attribute name="composer" value="source"/>
@@ -114,6 +140,11 @@
 		</attributes>
 	</buildpathentry>
 	<buildpathentry kind="src" path="vendor/psr/cache/src">
+		<attributes>
+			<attribute name="composer" value="vendor"/>
+		</attributes>
+	</buildpathentry>
+	<buildpathentry kind="src" path="vendor/psr/container/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>

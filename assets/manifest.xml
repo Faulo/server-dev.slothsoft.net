@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<assets xmlns="http://schema.slothsoft.net/farah/module">
+	<resource name="big" type="*/*" realpath="C:\Emulatoren\Amiga\HDD\HDD_OS3.5.hdf"/>
+	
+    <resource-directory name="css" type="text/css"/>
+    <resource-directory name="js" type="application/javascript"/>
+    <resource-directory name="xsl" type="application/xslt+xml"/>
+    
+    <directory name="sitemap">
+    	<resource use="template" name="template" type="application/xslt+xml"/>
+    </directory>
+	
+    <directory name="static">
+      <resource name="swiss-wertvoll" path="swiss-wertvoll.xml" type="application/xml"/>
+      <resource-directory name="pics" path="pics" type="image/*"/>
+      <resource-directory name="txt" path="txt" type="text/plain"/>
+      <resource-directory name="misc" path="misc" type="*/*"/>
+      <resource name="unicode" path="unicode.xml" type="application/xml"/>
+      <resource name="dvb" path="dvb.xml" type="application/xml"/>
+      <resource name="8bit" path="8bit.xml" type="application/xml"/>
+      <resource name="vc2a" path="vc2a.csv" type="text/csv">
+        <options del="&#9;" sep="" output="thead"/>
+      </resource>
+      <resource name="vc2b" path="vc2b.csv" type="text/csv">
+        <options del="&#9;" sep="" output="thead"/>
+      </resource>
+      <resource name="vc2c" path="vc2c.csv" type="text/csv">
+        <options del="&#9;" sep="" output="thead"/>
+      </resource>
+      <resource name="GameOfLife" path="GameOfLife.svg" type="image/svg+xml"/>
+      <resource name="GameOfLife.Filter" path="GameOfLife.Filter.svg" type="image/svg+xml"/>
+    </directory>
+    
+     
+     
+    <fragment name="data">
+    	<fragment name="poll"/>
+    	<fragment name="smartphone"/>
+    	<fragment name="swiss"/>
+    	<fragment name="pics-upload"/>
+    </fragment>
+    
+    <fragment name="pages">
+    	<fragment name="home">
+    		<use-template ref="/xsl/_home" name="_dvb"/>
+    	</fragment>
+	    <fragment name="dvb">
+	      <use-document ref="/static/dvb" name="dvb"/>
+	      <use-template ref="/xsl/_dvb" name="_dvb"/>
+	    </fragment>
+	    <fragment name="poll">
+	      <use-document ref="/data/poll" name="poll"/>
+	      <use-template ref="/xsl/_poll" name="_poll"/>
+	    </fragment>
+	    <fragment name="smartphone">
+	      <use-document ref="/data/smartphone" name="smartphone"/>
+	      <use-template ref="/xsl/_smartphone" name="_smartphone"/>
+	    </fragment>
+	    <fragment name="swiss-wertvoll">
+	      <use-document ref="/data/swiss" name="swiss"/>
+	      <use-template ref="/xsl/_swiss" name="_swiss"/>
+	    </fragment>
+	    <fragment name="pics">
+	      <import ref="/api/default" name="default"/>
+	      <use-template ref="/xsl/pics" name="pics"/>
+	      <use-document ref="/data/pics-upload" name="pics-upload"/>
+	      <use-document ref="/static/pics" name="pics"/>
+	    </fragment>
+	    <fragment name="pics2">
+	      <import ref="/api/default" name="default"/>
+	      <use-template ref="/xsl/pics" name="pics"/>
+	      <use-document ref="/static/pics" name="pics"/>
+	    </fragment>
+	    <fragment name="fonts">
+	      <use-template ref="/xsl/fonts" name="fonts"/>
+	      <use-document ref="//slothsoft@slothsoft/static/fonts" name="fonts"/>
+	      <param name="standalone" scope="global"/>
+	    </fragment>
+	    <fragment name="fonts-test">
+	      <use-template ref="/xsl/fonts-test" name="fonts-test"/>
+	      <use-document ref="//slothsoft@slothsoft/static/fonts" name="fonts"/>
+	    </fragment>
+	    <fragment name="GameOfLife">
+	      <use-template ref="/xsl/_GameOfLife" name="_GameOfLife"/>
+	      <link-script ref="/js/GameOfLife" name="GameOfLife"/>
+	      <link-stylesheet ref="/css/GameOfLife" name="GameOfLife"/>
+	    </fragment>
+	    <fragment name="misc">
+	      <use-document ref="/static/misc" name="misc"/>
+	    </fragment>
+	    <fragment name="8bit">
+	      <use-template ref="/xsl/_8bit" name="_8bit"/>
+	      <use-document ref="/static/8bit" name="8bit"/>
+	      <import ref="//slothsoft@core/api/HTML5" name="HTML5"/>
+	      <param name="standalone" scope="global"/>
+	    </fragment>
+	    <fragment name="vc2">
+	      <use-template ref="/xsl/_vc2" name="_vc2"/>
+	      <use-document ref="/static/vc2a" name="vc2a"/>
+	      <use-document ref="/static/vc2b" name="vc2b"/>
+	      <use-document ref="/static/vc2c" name="vc2c"/>
+	      <import ref="//slothsoft@core/api/HTML5" name="HTML5"/>
+	      <param name="standalone" scope="global"/>
+	    </fragment>
+	 </fragment>   
+    
+    
+    <fragment name="api">
+	    <fragment name="default">
+	      <link-stylesheet ref="//slothsoft@slothsoft/css/default" name="default"/>
+	      <link-stylesheet ref="//slothsoft@slothsoft/css/fonts" name="fonts"/>
+	    </fragment>
+    </fragment>
+    
+    
+    
+	
+	<directory name="overwatch">
+		<resource name="config" path="config.xml" type="application/xml"/>
+		<directory name="counter">
+			<resource use="template" name="counter-list" type="application/xslt+xml"/>
+			<directory name="heropicker" use="document">
+				<use-document ref="/overwatch/config" name="config"/>
+				<resource use="template" name="adapter" type="application/xslt+xml"/>
+				<external-resource use="document" name="source" type="text/html" src="https://www.heropicker.com/overwatch-counters/"/>
+			</directory>
+			<directory name="bsodgaming" use="document">
+				<use-document ref="/overwatch/config" name="config"/>
+				<resource use="template" name="adapter" type="application/xslt+xml"/>
+				<external-resource use="document" name="source" type="text/html" src="http://bsodgaming.com/overwatch-counters-guide/"/>
+			</directory>
+			<directory name="rankedboost" use="document">
+				<use-document ref="/overwatch/config" name="config"/>
+				<resource use="template" name="adapter" type="application/xslt+xml"/>
+				<external-resource use="document" name="source" type="text/html" src="https://rankedboost.com/overwatch/counters/"/>
+			</directory>
+		</directory>
+	</directory>
+  </assets>

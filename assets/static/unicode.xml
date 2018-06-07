@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<unicode>
+	<letter name="a" serif="a" serif-bold="𝐚" serif-italic="𝑎"
+		serif-bold-italic="𝒂" sans="𝖺" sans-bold="𝗮" sans-italic="𝘢"
+		sans-bold-italic="𝙖" handwriting="𝒶" handwriting-bold="𝓪" fraktur="𝔞"
+		fraktur-bold="𝖆" fullwidth="ａ" monospace="𝚊" doublestruck="𝕒"
+		capitals="ᴀ" flipped="ɐ" />
+	<letter name="b" serif="b" serif-bold="𝐛" serif-italic="𝑏"
+		serif-bold-italic="𝒃" sans="𝖻" sans-bold="𝗯" sans-italic="𝘣"
+		sans-bold-italic="𝙗" handwriting="𝒷" handwriting-bold="𝓫" fraktur="𝔟"
+		fraktur-bold="𝖇" fullwidth="ｂ" monospace="𝚋" doublestruck="𝕓"
+		capitals="ʙ" flipped="q" />
+	<letter name="c" serif="c" serif-bold="𝐜" serif-italic="𝑐"
+		serif-bold-italic="𝒄" sans="𝖼" sans-bold="𝗰" sans-italic="𝘤"
+		sans-bold-italic="𝙘" handwriting="𝒸" handwriting-bold="𝓬" fraktur="𝔠"
+		fraktur-bold="𝖈" fullwidth="ｃ" monospace="𝚌" doublestruck="𝕔"
+		capitals="ᴄ" flipped="ɔ" />
+	<letter name="d" serif="d" serif-bold="𝐝" serif-italic="𝑑"
+		serif-bold-italic="𝒅" sans="𝖽" sans-bold="𝗱" sans-italic="𝘥"
+		sans-bold-italic="𝙙" handwriting="𝒹" handwriting-bold="𝓭" fraktur="𝔡"
+		fraktur-bold="𝖉" fullwidth="ｄ" monospace="𝚍" doublestruck="𝕕"
+		capitals="ᴅ" flipped="p" />
+	<letter name="e" serif="e" serif-bold="𝐞" serif-italic="𝑒"
+		serif-bold-italic="𝒆" sans="𝖾" sans-bold="𝗲" sans-italic="𝘦"
+		sans-bold-italic="𝙚" handwriting="ℯ" handwriting-bold="𝓮" fraktur="𝔢"
+		fraktur-bold="𝖊" fullwidth="ｅ" monospace="𝚎" doublestruck="𝕖"
+		capitals="ᴇ" flipped="ǝ" />
+	<letter name="f" serif="f" serif-bold="𝐟" serif-italic="𝑓"
+		serif-bold-italic="𝒇" sans="𝖿" sans-bold="𝗳" sans-italic="𝘧"
+		sans-bold-italic="𝙛" handwriting="𝒻" handwriting-bold="𝓯" fraktur="𝔣"
+		fraktur-bold="𝖋" fullwidth="ｆ" monospace="𝚏" doublestruck="𝕗"
+		capitals="ꜰ" flipped="ɟ" />
+	<letter name="g" serif="g" serif-bold="𝐠" serif-italic="𝑔"
+		serif-bold-italic="𝒈" sans="𝗀" sans-bold="𝗴" sans-italic="𝘨"
+		sans-bold-italic="𝙜" handwriting="ℊ" handwriting-bold="𝓰" fraktur="𝔤"
+		fraktur-bold="𝖌" fullwidth="ｇ" monospace="𝚐" doublestruck="𝕘"
+		capitals="ɢ" flipped="ƃ" />
+	<letter name="h" serif="h" serif-bold="𝐡" serif-italic="ℎ"
+		serif-bold-italic="𝒉" sans="𝗁" sans-bold="𝗵" sans-italic="𝘩"
+		sans-bold-italic="𝙝" handwriting="𝒽" handwriting-bold="𝓱" fraktur="𝔥"
+		fraktur-bold="𝖍" fullwidth="ｈ" monospace="𝚑" doublestruck="𝕙"
+		capitals="ʜ" flipped="ɥ" />
+	<letter name="i" serif="i" serif-bold="𝐢" serif-italic="𝑖"
+		serif-bold-italic="𝒊" sans="𝗂" sans-bold="𝗶" sans-italic="𝘪"
+		sans-bold-italic="𝙞" handwriting="𝒾" handwriting-bold="𝓲" fraktur="𝔦"
+		fraktur-bold="𝖎" fullwidth="ｉ" monospace="𝚒" doublestruck="𝕚"
+		capitals="ɪ" flipped="ı" />
+	<letter name="j" serif="j" serif-bold="𝐣" serif-italic="𝑗"
+		serif-bold-italic="𝒋" sans="𝗃" sans-bold="𝗷" sans-italic="𝘫"
+		sans-bold-italic="𝙟" handwriting="𝒿" handwriting-bold="𝓳" fraktur="𝔧"
+		fraktur-bold="𝖏" fullwidth="ｊ" monospace="𝚓" doublestruck="𝕛"
+		capitals="ᴊ" flipped="ɾ" />
+	<letter name="k" serif="k" serif-bold="𝐤" serif-italic="𝑘"
+		serif-bold-italic="𝒌" sans="𝗄" sans-bold="𝗸" sans-italic="𝘬"
+		sans-bold-italic="𝙠" handwriting="𝓀" handwriting-bold="𝓴" fraktur="𝔨"
+		fraktur-bold="𝖐" fullwidth="ｋ" monospace="𝚔" doublestruck="𝕜"
+		capitals="ᴋ" flipped="ʞ" />
+	<letter name="l" serif="l" serif-bold="𝐥" serif-italic="𝑙"
+		serif-bold-italic="𝒍" sans="𝗅" sans-bold="𝗹" sans-italic="𝘭"
+		sans-bold-italic="𝙡" handwriting="ℓ" handwriting-bold="𝓵" fraktur="𝔩"
+		fraktur-bold="𝖑" fullwidth="ｌ" monospace="𝚕" doublestruck="𝕝"
+		capitals="ʟ" flipped="ʃ" />
+	<letter name="m" serif="m" serif-bold="𝐦" serif-italic="𝑚"
+		serif-bold-italic="𝒎" sans="𝗆" sans-bold="𝗺" sans-italic="𝘮"
+		sans-bold-italic="𝙢" handwriting="𝓂" handwriting-bold="𝓶" fraktur="𝔪"
+		fraktur-bold="𝖒" fullwidth="ｍ" monospace="𝚖" doublestruck="𝕞"
+		capitals="ᴍ" flipped="ɯ" />
+	<letter name="n" serif="n" serif-bold="𝐧" serif-italic="𝑛"
+		serif-bold-italic="𝒏" sans="𝗇" sans-bold="𝗻" sans-italic="𝘯"
+		sans-bold-italic="𝙣" handwriting="𝓃" handwriting-bold="𝓷" fraktur="𝔫"
+		fraktur-bold="𝖓" fullwidth="ｎ" monospace="𝚗" doublestruck="𝕟"
+		capitals="ɴ" flipped="u" />
+	<letter name="o" serif="o" serif-bold="𝐨" serif-italic="𝑜"
+		serif-bold-italic="𝒐" sans="𝗈" sans-bold="𝗼" sans-italic="𝘰"
+		sans-bold-italic="𝙤" handwriting="ℴ" handwriting-bold="𝓸" fraktur="𝔬"
+		fraktur-bold="𝖔" fullwidth="ｏ" monospace="𝚘" doublestruck="𝕠"
+		capitals="ᴏ" flipped="o" />
+	<letter name="p" serif="p" serif-bold="𝐩" serif-italic="𝑝"
+		serif-bold-italic="𝒑" sans="𝗉" sans-bold="𝗽" sans-italic="𝘱"
+		sans-bold-italic="𝙥" handwriting="𝓅" handwriting-bold="𝓹" fraktur="𝔭"
+		fraktur-bold="𝖕" fullwidth="ｐ" monospace="𝚙" doublestruck="𝕡"
+		capitals="ᴘ" flipped="d" />
+	<letter name="q" serif="q" serif-bold="𝐪" serif-italic="𝑞"
+		serif-bold-italic="𝒒" sans="𝗊" sans-bold="𝗾" sans-italic="𝘲"
+		sans-bold-italic="𝙦" handwriting="𝓆" handwriting-bold="𝓺" fraktur="𝔮"
+		fraktur-bold="𝖖" fullwidth="ｑ" monospace="𝚚" doublestruck="𝕢"
+		capitals="꟮" flipped="b" />
+	<letter name="r" serif="r" serif-bold="𝐫" serif-italic="𝑟"
+		serif-bold-italic="𝒓" sans="𝗋" sans-bold="𝗿" sans-italic="𝘳"
+		sans-bold-italic="𝙧" handwriting="𝓇" handwriting-bold="𝓻" fraktur="𝔯"
+		fraktur-bold="𝖗" fullwidth="ｒ" monospace="𝚛" doublestruck="𝕣"
+		capitals="ʀ" flipped="ɹ" />
+	<letter name="s" serif="s" serif-bold="𝐬" serif-italic="𝑠"
+		serif-bold-italic="𝒔" sans="𝗌" sans-bold="𝘀" sans-italic="𝘴"
+		sans-bold-italic="𝙨" handwriting="𝓈" handwriting-bold="𝓼" fraktur="𝔰"
+		fraktur-bold="𝖘" fullwidth="ｓ" monospace="𝚜" doublestruck="𝕤"
+		capitals="ꜱ" flipped="s" />
+	<letter name="t" serif="t" serif-bold="𝐭" serif-italic="𝑡"
+		serif-bold-italic="𝒕" sans="𝗍" sans-bold="𝘁" sans-italic="𝘵"
+		sans-bold-italic="𝙩" handwriting="𝓉" handwriting-bold="𝓽" fraktur="𝔱"
+		fraktur-bold="𝖙" fullwidth="ｔ" monospace="𝚝" doublestruck="𝕥"
+		capitals="ᴛ" flipped="ʇ" />
+	<letter name="u" serif="u" serif-bold="𝐮" serif-italic="𝑢"
+		serif-bold-italic="𝒖" sans="𝗎" sans-bold="𝘂" sans-italic="𝘶"
+		sans-bold-italic="𝙪" handwriting="𝓊" handwriting-bold="𝓾" fraktur="𝔲"
+		fraktur-bold="𝖚" fullwidth="ｕ" monospace="𝚞" doublestruck="𝕦"
+		capitals="ᴜ" flipped="n" />
+	<letter name="v" serif="v" serif-bold="𝐯" serif-italic="𝑣"
+		serif-bold-italic="𝒗" sans="𝗏" sans-bold="𝘃" sans-italic="𝘷"
+		sans-bold-italic="𝙫" handwriting="𝓋" handwriting-bold="𝓿" fraktur="𝔳"
+		fraktur-bold="𝖛" fullwidth="ｖ" monospace="𝚟" doublestruck="𝕧"
+		capitals="ᴠ" flipped="ʌ" />
+	<letter name="w" serif="w" serif-bold="𝐰" serif-italic="𝑤"
+		serif-bold-italic="𝒘" sans="𝗐" sans-bold="𝘄" sans-italic="𝘸"
+		sans-bold-italic="𝙬" handwriting="𝓌" handwriting-bold="𝔀" fraktur="𝔴"
+		fraktur-bold="𝖜" fullwidth="ｗ" monospace="𝚠" doublestruck="𝕨"
+		capitals="ᴡ" flipped="ʍ" />
+	<letter name="x" serif="x" serif-bold="𝐱" serif-italic="𝑥"
+		serif-bold-italic="𝒙" sans="𝗑" sans-bold="𝘅" sans-italic="𝘹"
+		sans-bold-italic="𝙭" handwriting="𝓍" handwriting-bold="𝔁" fraktur="𝔵"
+		fraktur-bold="𝖝" fullwidth="ｘ" monospace="𝚡" doublestruck="𝕩"
+		capitals="꟯" flipped="x" />
+	<letter name="y" serif="y" serif-bold="𝐲" serif-italic="𝑦"
+		serif-bold-italic="𝒚" sans="𝗒" sans-bold="𝘆" sans-italic="𝘺"
+		sans-bold-italic="𝙮" handwriting="𝓎" handwriting-bold="𝔂" fraktur="𝔶"
+		fraktur-bold="𝖞" fullwidth="ｙ" monospace="𝚢" doublestruck="𝕪"
+		capitals="ʏ" flipped="ʎ" />
+	<letter name="z" serif="z" serif-bold="𝐳" serif-italic="𝑧"
+		serif-bold-italic="𝒛" sans="𝗓" sans-bold="𝘇" sans-italic="𝘻"
+		sans-bold-italic="𝙯" handwriting="𝓏" handwriting-bold="𝔃" fraktur="𝔷"
+		fraktur-bold="𝖟" fullwidth="ｚ" monospace="𝚣" doublestruck="𝕫"
+		capitals="ᴢ" flipped="z" />
+	<letter name="A" serif="A" serif-bold="𝐀" serif-italic="𝐴"
+		serif-bold-italic="𝑨" sans="𝖠" sans-bold="𝗔" sans-italic="𝘈"
+		sans-bold-italic="𝘼" handwriting="𝒜" handwriting-bold="𝓐" fraktur="𝔄"
+		fraktur-bold="𝕬" fullwidth="Ａ" monospace="𝙰" doublestruck="𝔸"
+		capitals="A" flipped="∀" />
+	<letter name="B" serif="B" serif-bold="𝐁" serif-italic="𝐵"
+		serif-bold-italic="𝑩" sans="𝖡" sans-bold="𝗕" sans-italic="𝘉"
+		sans-bold-italic="𝘽" handwriting="ℬ" handwriting-bold="𝓑" fraktur="𝔅"
+		fraktur-bold="𝕭" fullwidth="Ｂ" monospace="𝙱" doublestruck="𝔹"
+		capitals="B" flipped="𐐒" />
+	<letter name="C" serif="C" serif-bold="𝐂" serif-italic="𝐶"
+		serif-bold-italic="𝑪" sans="𝖢" sans-bold="𝗖" sans-italic="𝘊"
+		sans-bold-italic="𝘾" handwriting="𝒞" handwriting-bold="𝓒" fraktur="ℭ"
+		fraktur-bold="𝕮" fullwidth="Ｃ" monospace="𝙲" doublestruck="ℂ"
+		capitals="C" flipped="Ↄ" />
+	<letter name="D" serif="D" serif-bold="𝐃" serif-italic="𝐷"
+		serif-bold-italic="𝑫" sans="𝖣" sans-bold="𝗗" sans-italic="𝘋"
+		sans-bold-italic="𝘿" handwriting="𝒟" handwriting-bold="𝓓" fraktur="𝔇"
+		fraktur-bold="𝕯" fullwidth="Ｄ" monospace="𝙳" doublestruck="𝔻"
+		capitals="D" flipped="◖" />
+	<letter name="E" serif="E" serif-bold="𝐄" serif-italic="𝐸"
+		serif-bold-italic="𝑬" sans="𝖤" sans-bold="𝗘" sans-italic="𝘌"
+		sans-bold-italic="𝙀" handwriting="ℰ" handwriting-bold="𝓔" fraktur="𝔈"
+		fraktur-bold="𝕰" fullwidth="Ｅ" monospace="𝙴" doublestruck="𝔼"
+		capitals="E" flipped="Ǝ" />
+	<letter name="F" serif="F" serif-bold="𝐅" serif-italic="𝐹"
+		serif-bold-italic="𝑭" sans="𝖥" sans-bold="𝗙" sans-italic="𝘍"
+		sans-bold-italic="𝙁" handwriting="ℱ" handwriting-bold="𝓕" fraktur="𝔉"
+		fraktur-bold="𝕱" fullwidth="Ｆ" monospace="𝙵" doublestruck="𝔽"
+		capitals="F" flipped="Ⅎ" />
+	<letter name="G" serif="G" serif-bold="𝐆" serif-italic="𝐺"
+		serif-bold-italic="𝑮" sans="𝖦" sans-bold="𝗚" sans-italic="𝘎"
+		sans-bold-italic="𝙂" handwriting="𝒢" handwriting-bold="𝓖" fraktur="𝔊"
+		fraktur-bold="𝕲" fullwidth="Ｇ" monospace="𝙶" doublestruck="𝔾"
+		capitals="G" flipped="⅁" />
+	<letter name="H" serif="H" serif-bold="𝐇" serif-italic="𝐻"
+		serif-bold-italic="𝑯" sans="𝖧" sans-bold="𝗛" sans-italic="𝘏"
+		sans-bold-italic="𝙃" handwriting="ℋ" handwriting-bold="𝓗" fraktur="ℌ"
+		fraktur-bold="𝕳" fullwidth="Ｈ" monospace="𝙷" doublestruck="ℍ"
+		capitals="H" flipped="H" />
+	<letter name="I" serif="I" serif-bold="𝐈" serif-italic="𝐼"
+		serif-bold-italic="𝑰" sans="𝖨" sans-bold="𝗜" sans-italic="𝘐"
+		sans-bold-italic="𝙄" handwriting="ℐ" handwriting-bold="𝓘" fraktur="ℑ"
+		fraktur-bold="𝕴" fullwidth="Ｉ" monospace="𝙸" doublestruck="𝕀"
+		capitals="I" flipped="I" />
+	<letter name="J" serif="J" serif-bold="𝐉" serif-italic="𝐽"
+		serif-bold-italic="𝑱" sans="𝖩" sans-bold="𝗝" sans-italic="𝘑"
+		sans-bold-italic="𝙅" handwriting="𝒥" handwriting-bold="𝓙" fraktur="𝔍"
+		fraktur-bold="𝕵" fullwidth="Ｊ" monospace="𝙹" doublestruck="𝕁"
+		capitals="J" flipped="ſ" />
+	<letter name="K" serif="K" serif-bold="𝐊" serif-italic="𝐾"
+		serif-bold-italic="𝑲" sans="𝖪" sans-bold="𝗞" sans-italic="𝘒"
+		sans-bold-italic="𝙆" handwriting="𝒦" handwriting-bold="𝓚" fraktur="𝔎"
+		fraktur-bold="𝕶" fullwidth="Ｋ" monospace="𝙺" doublestruck="𝕂"
+		capitals="K" flipped="⋊" />
+	<letter name="L" serif="L" serif-bold="𝐋" serif-italic="𝐿"
+		serif-bold-italic="𝑳" sans="𝖫" sans-bold="𝗟" sans-italic="𝘓"
+		sans-bold-italic="𝙇" handwriting="ℒ" handwriting-bold="𝓛" fraktur="𝔏"
+		fraktur-bold="𝕷" fullwidth="Ｌ" monospace="𝙻" doublestruck="𝕃"
+		capitals="L" flipped="⅂" />
+	<letter name="M" serif="M" serif-bold="𝐌" serif-italic="𝑀"
+		serif-bold-italic="𝑴" sans="𝖬" sans-bold="𝗠" sans-italic="𝘔"
+		sans-bold-italic="𝙈" handwriting="ℳ" handwriting-bold="𝓜" fraktur="𝔐"
+		fraktur-bold="𝕸" fullwidth="Ｍ" monospace="𝙼" doublestruck="𝕄"
+		capitals="M" flipped="W" />
+	<letter name="N" serif="N" serif-bold="𝐍" serif-italic="𝑁"
+		serif-bold-italic="𝑵" sans="𝖭" sans-bold="𝗡" sans-italic="𝘕"
+		sans-bold-italic="𝙉" handwriting="𝒩" handwriting-bold="𝓝" fraktur="𝔑"
+		fraktur-bold="𝕹" fullwidth="Ｎ" monospace="𝙽" doublestruck="ℕ"
+		capitals="N" flipped="ᴎ" />
+	<letter name="O" serif="O" serif-bold="𝐎" serif-italic="𝑂"
+		serif-bold-italic="𝑶" sans="𝖮" sans-bold="𝗢" sans-italic="𝘖"
+		sans-bold-italic="𝙊" handwriting="𝒪" handwriting-bold="𝓞" fraktur="𝔒"
+		fraktur-bold="𝕺" fullwidth="Ｏ" monospace="𝙾" doublestruck="𝕆"
+		capitals="O" flipped="O" />
+	<letter name="P" serif="P" serif-bold="𝐏" serif-italic="𝑃"
+		serif-bold-italic="𝑷" sans="𝖯" sans-bold="𝗣" sans-italic="𝘗"
+		sans-bold-italic="𝙋" handwriting="𝒫" handwriting-bold="𝓟" fraktur="𝔓"
+		fraktur-bold="𝕻" fullwidth="Ｐ" monospace="𝙿" doublestruck="ℙ"
+		capitals="P" flipped="Ԁ" />
+	<letter name="Q" serif="Q" serif-bold="𝐐" serif-italic="𝑄"
+		serif-bold-italic="𝑸" sans="𝖰" sans-bold="𝗤" sans-italic="𝘘"
+		sans-bold-italic="𝙌" handwriting="𝒬" handwriting-bold="𝓠" fraktur="𝔔"
+		fraktur-bold="𝕼" fullwidth="Ｑ" monospace="𝚀" doublestruck="ℚ"
+		capitals="Q" flipped="Ό" />
+	<letter name="R" serif="R" serif-bold="𝐑" serif-italic="𝑅"
+		serif-bold-italic="𝑹" sans="𝖱" sans-bold="𝗥" sans-italic="𝘙"
+		sans-bold-italic="𝙍" handwriting="ℛ" handwriting-bold="𝓡" fraktur="ℜ"
+		fraktur-bold="𝕽" fullwidth="Ｒ" monospace="𝚁" doublestruck="ℝ"
+		capitals="R" flipped="ᴚ" />
+	<letter name="S" serif="S" serif-bold="𝐒" serif-italic="𝑆"
+		serif-bold-italic="𝑺" sans="𝖲" sans-bold="𝗦" sans-italic="𝘚"
+		sans-bold-italic="𝙎" handwriting="𝒮" handwriting-bold="𝓢" fraktur="𝔖"
+		fraktur-bold="𝕾" fullwidth="Ｓ" monospace="𝚂" doublestruck="𝕊"
+		capitals="S" flipped="S" />
+	<letter name="T" serif="T" serif-bold="𝐓" serif-italic="𝑇"
+		serif-bold-italic="𝑻" sans="𝖳" sans-bold="𝗧" sans-italic="𝘛"
+		sans-bold-italic="𝙏" handwriting="𝒯" handwriting-bold="𝓣" fraktur="𝔗"
+		fraktur-bold="𝕿" fullwidth="Ｔ" monospace="𝚃" doublestruck="𝕋"
+		capitals="T" flipped="⊥" />
+	<letter name="U" serif="U" serif-bold="𝐔" serif-italic="𝑈"
+		serif-bold-italic="𝑼" sans="𝖴" sans-bold="𝗨" sans-italic="𝘜"
+		sans-bold-italic="𝙐" handwriting="𝒰" handwriting-bold="𝓤" fraktur="𝔘"
+		fraktur-bold="𝖀" fullwidth="Ｕ" monospace="𝚄" doublestruck="𝕌"
+		capitals="U" flipped="∩" />
+	<letter name="V" serif="V" serif-bold="𝐕" serif-italic="𝑉"
+		serif-bold-italic="𝑽" sans="𝖵" sans-bold="𝗩" sans-italic="𝘝"
+		sans-bold-italic="𝙑" handwriting="𝒱" handwriting-bold="𝓥" fraktur="𝔙"
+		fraktur-bold="𝖁" fullwidth="Ｖ" monospace="𝚅" doublestruck="𝕍"
+		capitals="V" flipped="ᴧ" />
+	<letter name="W" serif="W" serif-bold="𝐖" serif-italic="𝑊"
+		serif-bold-italic="𝑾" sans="𝖶" sans-bold="𝗪" sans-italic="𝘞"
+		sans-bold-italic="𝙒" handwriting="𝒲" handwriting-bold="𝓦" fraktur="𝔚"
+		fraktur-bold="𝖂" fullwidth="Ｗ" monospace="𝚆" doublestruck="𝕎"
+		capitals="W" flipped="M" />
+	<letter name="X" serif="X" serif-bold="𝐗" serif-italic="𝑋"
+		serif-bold-italic="𝑿" sans="𝖷" sans-bold="𝗫" sans-italic="𝘟"
+		sans-bold-italic="𝙓" handwriting="𝒳" handwriting-bold="𝓧" fraktur="𝔛"
+		fraktur-bold="𝖃" fullwidth="Ｘ" monospace="𝚇" doublestruck="𝕏"
+		capitals="X" flipped="X" />
+	<letter name="Y" serif="Y" serif-bold="𝐘" serif-italic="𝑌"
+		serif-bold-italic="𝒀" sans="𝖸" sans-bold="𝗬" sans-italic="𝘠"
+		sans-bold-italic="𝙔" handwriting="𝒴" handwriting-bold="𝓨" fraktur="𝔜"
+		fraktur-bold="𝖄" fullwidth="Ｙ" monospace="𝚈" doublestruck="𝕐"
+		capitals="Y" flipped="⅄" />
+	<letter name="Z" serif="Z" serif-bold="𝐙" serif-italic="𝑍"
+		serif-bold-italic="𝒁" sans="𝖹" sans-bold="𝗭" sans-italic="𝘡"
+		sans-bold-italic="𝙕" handwriting="𝒵" handwriting-bold="𝓩" fraktur="ℨ"
+		fraktur-bold="𝖅" fullwidth="Ｚ" monospace="𝚉" doublestruck="ℤ"
+		capitals="Z" flipped="Z" />
+	<letter name="0" serif="0" serif-bold="𝟎" serif-italic="0"
+		serif-bold-italic="𝟎" sans="𝟢" sans-bold="𝟬" sans-italic="0"
+		sans-bold-italic="𝟬" handwriting="0" handwriting-bold="0" fraktur="0"
+		fraktur-bold="0" fullwidth="𝟶" monospace="𝟶" doublestruck="𝟘"
+		capitals="0" flipped="0" />
+	<letter name="1" serif="1" serif-bold="𝟏" serif-italic="1"
+		serif-bold-italic="𝟏" sans="𝟣" sans-bold="𝟭" sans-italic="1"
+		sans-bold-italic="𝟭" handwriting="1" handwriting-bold="1" fraktur="1"
+		fraktur-bold="1" fullwidth="𝟷" monospace="𝟷" doublestruck="𝟙"
+		capitals="1" flipped="1" />
+	<letter name="2" serif="2" serif-bold="𝟐" serif-italic="2"
+		serif-bold-italic="𝟐" sans="𝟤" sans-bold="𝟮" sans-italic="2"
+		sans-bold-italic="𝟮" handwriting="2" handwriting-bold="2" fraktur="2"
+		fraktur-bold="2" fullwidth="𝟸" monospace="𝟸" doublestruck="𝟚"
+		capitals="2" flipped="2" />
+	<letter name="3" serif="3" serif-bold="𝟑" serif-italic="3"
+		serif-bold-italic="𝟑" sans="𝟥" sans-bold="𝟯" sans-italic="3"
+		sans-bold-italic="𝟯" handwriting="3" handwriting-bold="3" fraktur="3"
+		fraktur-bold="3" fullwidth="𝟹" monospace="𝟹" doublestruck="𝟛"
+		capitals="3" flipped="Ɛ" />
+	<letter name="4" serif="4" serif-bold="𝟒" serif-italic="4"
+		serif-bold-italic="𝟒" sans="𝟦" sans-bold="𝟰" sans-italic="4"
+		sans-bold-italic="𝟰" handwriting="4" handwriting-bold="4" fraktur="4"
+		fraktur-bold="4" fullwidth="𝟺" monospace="𝟺" doublestruck="𝟜"
+		capitals="4" flipped="ᔭ" />
+	<letter name="5" serif="5" serif-bold="𝟓" serif-italic="5"
+		serif-bold-italic="𝟓" sans="𝟧" sans-bold="𝟱" sans-italic="5"
+		sans-bold-italic="𝟱" handwriting="5" handwriting-bold="5" fraktur="5"
+		fraktur-bold="5" fullwidth="𝟻" monospace="𝟻" doublestruck="𝟝"
+		capitals="5" flipped="5" />
+	<letter name="6" serif="6" serif-bold="𝟔" serif-italic="6"
+		serif-bold-italic="𝟔" sans="𝟨" sans-bold="𝟲" sans-italic="6"
+		sans-bold-italic="𝟲" handwriting="6" handwriting-bold="6" fraktur="6"
+		fraktur-bold="6" fullwidth="𝟼" monospace="𝟼" doublestruck="𝟞"
+		capitals="6" flipped="9" />
+	<letter name="7" serif="7" serif-bold="𝟕" serif-italic="7"
+		serif-bold-italic="𝟕" sans="𝟩" sans-bold="𝟳" sans-italic="7"
+		sans-bold-italic="𝟳" handwriting="7" handwriting-bold="7" fraktur="7"
+		fraktur-bold="7" fullwidth="𝟽" monospace="𝟽" doublestruck="𝟟"
+		capitals="7" flipped="Ɫ" />
+	<letter name="8" serif="8" serif-bold="𝟖" serif-italic="8"
+		serif-bold-italic="𝟖" sans="𝟪" sans-bold="𝟴" sans-italic="8"
+		sans-bold-italic="𝟴" handwriting="8" handwriting-bold="8" fraktur="8"
+		fraktur-bold="8" fullwidth="𝟾" monospace="𝟾" doublestruck="𝟠"
+		capitals="8" flipped="8" />
+	<letter name="9" serif="9" serif-bold="𝟗" serif-italic="9"
+		serif-bold-italic="𝟗" sans="𝟫" sans-bold="𝟵" sans-italic="9"
+		sans-bold-italic="𝟵" handwriting="9" handwriting-bold="9" fraktur="9"
+		fraktur-bold="9" fullwidth="𝟿" monospace="𝟿" doublestruck="𝟡"
+		capitals="9" flipped="6" />
+	<letter name=" " serif=" " serif-bold=" " serif-italic=" "
+		serif-bold-italic=" " sans=" " sans-bold=" " sans-italic=" "
+		sans-bold-italic=" " handwriting=" " handwriting-bold=" " fraktur=" "
+		fraktur-bold=" " fullwidth="　" monospace=" " doublestruck=" "
+		capitals=" " flipped=" " />
+	<letter name="." serif="." serif-bold="." serif-italic="."
+		serif-bold-italic="." sans="." sans-bold="." sans-italic="."
+		sans-bold-italic="." handwriting="." handwriting-bold="." fraktur="."
+		fraktur-bold="." fullwidth="。" monospace="." doublestruck="."
+		capitals="." flipped="˙" />
+	<letter name="?" serif="?" serif-bold="?" serif-italic="?"
+		serif-bold-italic="?" sans="?" sans-bold="?" sans-italic="?"
+		sans-bold-italic="?" handwriting="?" handwriting-bold="?" fraktur="?"
+		fraktur-bold="?" fullwidth="？" monospace="?" doublestruck="?"
+		capitals="?" flipped="¿" />
+	<letter name="!" serif="!" serif-bold="!" serif-italic="!"
+		serif-bold-italic="!" sans="!" sans-bold="!" sans-italic="!"
+		sans-bold-italic="!" handwriting="!" handwriting-bold="!" fraktur="!"
+		fraktur-bold="!" fullwidth="！" monospace="!" doublestruck="!"
+		capitals="!" flipped="¡" />
+	<letter name="'" serif="'" serif-bold="'" serif-italic="′"
+		serif-bold-italic="′" sans="'" sans-bold="'" sans-italic="′"
+		sans-bold-italic="′" handwriting="′" handwriting-bold="′" fraktur="'"
+		fraktur-bold="'" fullwidth="'" monospace="'" doublestruck="'"
+		capitals="'" flipped="," />
+	<letter name="&quot;" serif="&quot;" serif-bold="&quot;"
+		serif-italic="″" serif-bold-italic="″" sans="&quot;" sans-bold="&quot;"
+		sans-italic="″" sans-bold-italic="″" handwriting="″" handwriting-bold="″"
+		fraktur="&quot;" fraktur-bold="&quot;" fullwidth="&quot;" monospace="&quot;"
+		doublestruck="&quot;" capitals="&quot;" flipped="„" />
+</unicode>

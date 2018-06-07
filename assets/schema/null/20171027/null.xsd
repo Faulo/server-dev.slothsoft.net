@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xsd:schema
+	xmlns="http://schema.slothsoft.net/cms/null"
+	targetNamespace="http://schema.slothsoft.net/cms/null"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xsd:element name="data">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:any minOccurs="0"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+</xsd:schema>

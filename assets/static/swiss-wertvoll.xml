@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<swiss name="Wertvolle Eigenschaften">
+	<question name="...with nuts"/>
+	<question name="...with mint"/>
+	<question name="...with marzipan"/>
+	<question name="...with butterscotch"/>
+	<question name="...with cookies"/>
+	<question name="...with cherries"/>
+	<question name="...with strawberries"/>
+	<question name="...with other berries ??"/>
+	<question name="...with orange/tangerine"/>
+	<question name="...with lemon"/>
+	<question name="...with yogurt"/>
+</swiss>

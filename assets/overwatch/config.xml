@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<hero-list>
+		<hero name="Ana" />
+		<hero name="Bastion" />
+		<hero name="Brigitte" />
+		<hero name="D.VA" />
+		<hero name="Doomfist" />
+		<hero name="Genji" />
+		<hero name="Hanzo" />
+		<hero name="Junkrat" />
+		<hero name="Lucio" />
+		<hero name="McCree" />
+		<hero name="Mei" />
+		<hero name="Mercy" />
+		<hero name="Moira" />
+		<hero name="Orisa" />
+		<hero name="Pharah" />
+		<hero name="Reaper" />
+		<hero name="Reinhardt" />
+		<hero name="Roadhog" />
+		<hero name="Soldier: 76" />
+		<hero name="Sombra" />
+		<hero name="Symmetra" />
+		<hero name="Torbjorn" />
+		<hero name="Tracer" />
+		<hero name="Widowmaker" />
+		<hero name="Winston" />
+		<hero name="Zarya" />
+		<hero name="Zenyatta" />
+	</hero-list>
+	<source-list>
+		<source name="heropicker" href="https://www.heropicker.com/overwatch-counters/"
+			adapter="heropicker" type="counter" />
+		<source name="bsodgaming" href="http://bsodgaming.com/overwatch-counters-guide/"
+			adapter="bsodgaming" type="counter" />
+		<source name="rankedboost" href="https://rankedboost.com/overwatch/counters/"
+			adapter="rankedboost" type="counter" />
+
+	</source-list>
+</config>
