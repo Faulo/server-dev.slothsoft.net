@@ -1,55 +1,55 @@
 {
-	"name" : "slothsoft/dev.slothsoft.net",
-	"type" : "project",
-	"description" : "dev.slothsoft.net",
-	"license" : "GPL",
-	"keywords" : [
-		"slothsoft",
-		"farah-module",
-		"farah-server",
-		"docs"
-	],
-	"autoload" : {
-		"files" : [
-			"config.php",
-			"src/registerModule.php"
-		]
-	},
-	"require" : {
-		"php" : "^7.2",
-		"slothsoft/amber" : "dev-master",
-		"slothsoft/blob" : "dev-master",
-		"slothsoft/chat" : "dev-master",
-		"slothsoft/comics" : "dev-master",
-		"slothsoft/core" : "dev-master",
-		"slothsoft/cron" : "dev-master",
-		"slothsoft/dragonage" : "dev-master",
-		"slothsoft/farah" : "dev-master",
-		"slothsoft/fireemblem" : "dev-master",
-		"slothsoft/lang" : "dev-master",
-		"slothsoft/minecraft" : "dev-master",
-		"slothsoft/mtg" : "dev-master",
-		"slothsoft/pokemon" : "dev-master",
-		"slothsoft/savegame" : "dev-master",
-		"slothsoft/schema" : "dev-master",
-		"slothsoft/sse" : "dev-master",
-		"slothsoft/talesof" : "dev-master",
-		"slothsoft/tetris" : "dev-master",
-		"slothsoft/therapy" : "dev-master",
-		"slothsoft/twitter" : "dev-master",
-		"slothsoft/w3c" : "dev-master",
-		"slothsoft/webrtc" : "dev-master",
-		"slothsoft/whatthehell" : "dev-master"
-	},
-	"require-dev" : {
-		"phpunit/phpunit" : "^6.5"
-	},
-	"autoload-dev" : {
-		"classmap" : [
-			"tests/"
-		]
-	},
-	"classmap-authoritative" : true,
-	"minimum-stability" : "dev",
-	"prefer-stable" : true
+    "name": "slothsoft/dev.slothsoft.net",
+    "type": "project",
+    "description": "dev.slothsoft.net",
+    "license": "GPL",
+    "keywords": [
+        "slothsoft",
+        "farah-module",
+        "farah-server",
+        "docs"
+    ],
+    "autoload": {
+        "files": [
+            "config.php",
+            "src/registerModule.php"
+        ]
+    },
+    "require": {
+        "php": "^7.2",
+        "slothsoft/amber": "dev-master",
+        "slothsoft/blob": "dev-master",
+        "slothsoft/chat": "dev-master",
+        "slothsoft/comics": "dev-master",
+        "slothsoft/core": "dev-master",
+        "slothsoft/cron": "dev-master",
+        "slothsoft/dragonage": "dev-master",
+        "slothsoft/farah": "dev-master",
+        "slothsoft/fireemblem": "dev-master",
+        "slothsoft/lang": "dev-master",
+        "slothsoft/minecraft": "dev-master",
+        "slothsoft/mtg": "dev-master",
+        "slothsoft/pokemon": "dev-master",
+        "slothsoft/savegame": "dev-master",
+        "slothsoft/schema": "dev-master",
+        "slothsoft/sse": "dev-master",
+        "slothsoft/talesof": "dev-master",
+        "slothsoft/tetris": "dev-master",
+        "slothsoft/therapy": "dev-master",
+        "slothsoft/twitter": "dev-master",
+        "slothsoft/w3c": "dev-master",
+        "slothsoft/webrtc": "dev-master",
+        "slothsoft/whatthehell": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/"
+        ]
+    },
+    "classmap-authoritative": true,
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
