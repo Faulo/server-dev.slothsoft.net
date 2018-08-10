@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1fbb2cd85771ee9923e06433f5bbf85e",
+    "content-hash": "769ebe18d0f37076f9d0c792bf887fc0",
     "packages": [
         {
             "name": "guzzlehttp/psr7",
@@ -70,6 +70,52 @@
                 "url"
             ],
             "time": "2017-03-20T17:10:46+00:00"
+        },
+        {
+            "name": "krakjoe/pthreads-polyfill",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krakjoe/pthreads-polyfill.git",
+                "reference": "e0b6b34aca142dda943bf8ade046285fd2000c35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krakjoe/pthreads-polyfill/zipball/e0b6b34aca142dda943bf8ade046285fd2000c35",
+                "reference": "e0b6b34aca142dda943bf8ade046285fd2000c35",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Collectable.php",
+                    "src/Threaded.php",
+                    "src/Volatile.php",
+                    "src/Thread.php",
+                    "src/Worker.php",
+                    "src/Pool.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "PHP"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Watkins",
+                    "email": "krakjoe@php.net"
+                }
+            ],
+            "description": "A polyfill for pthreads",
+            "homepage": "http://pthreads.org/",
+            "keywords": [
+                "polyfill",
+                "pthreads"
+            ],
+            "time": "2015-11-16T08:24:31+00:00"
         },
         {
             "name": "matthiasmullie/minify",
@@ -421,21 +467,24 @@
         },
         {
             "name": "slothsoft/amber",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-amber",
-                "reference": "e52572008380612ed7ff894061cabc054085b27a",
+                "reference": "e4f7ae821ff8bdd48ba05fd0228d611ed88d5856",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master",
-                "slothsoft/savegame": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0",
+                "slothsoft/savegame": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
+            },
+            "suggest": {
+                "ext-imagick": "Needed to extract images with ambgfx"
             },
             "type": "library",
             "autoload": {
@@ -461,6 +510,7 @@
                 }
             ],
             "description": "A Farah module for processing game files from the amber engine (i.e., Ambermoon and Amberstar).",
+            "homepage": "http://farah.slothsoft.net/",
             "keywords": [
                 "docs",
                 "farah-module",
@@ -472,17 +522,17 @@
         },
         {
             "name": "slothsoft/blob",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-blob",
-                "reference": "083b1eaee4ae7acee3a1cd1b03ca6c3b028328ec",
+                "reference": "d6515ed51ad57580a71f098a715f59fe7978c3a0",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/w3c": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/w3c": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -521,18 +571,18 @@
         },
         {
             "name": "slothsoft/chat",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-chat",
-                "reference": "764ec12d93a32a23c42c0cda06bfc2c35b6b374c",
+                "reference": "5c0a8d0aa3e7cc01ee006a0ba8a939b494eec0d9",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master",
-                "slothsoft/sse": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0",
+                "slothsoft/sse": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -572,17 +622,17 @@
         },
         {
             "name": "slothsoft/comics",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-comics",
-                "reference": "0343ed7d6162099315315bb4c212e35a5adf5845",
+                "reference": "6f1e43d64101a939d5720744c9caddd145054536",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -621,18 +671,18 @@
         },
         {
             "name": "slothsoft/core",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-core",
-                "reference": "2ff00a040610fde6eb9543c0e06c392e3feea580",
+                "reference": "ea9948c4580f0b39e31998bf39b1c5b62fce8b16",
                 "shasum": null
             },
             "require": {
-                "ext-curl": "*",
+                "guzzlehttp/psr7": "^1.4",
                 "php": "^7.2",
                 "psr/http-message": "^1.0",
-                "slothsoft/w3c": "dev-master"
+                "slothsoft/w3c": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -671,17 +721,17 @@
         },
         {
             "name": "slothsoft/cron",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-cron",
-                "reference": "b479d60148091f200eb8d058d6a7a0f964565a5d",
+                "reference": "780aa5f4b2f96384d58a2b96b6cbe411f51ed910",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -711,6 +761,7 @@
             ],
             "description": "A Farah module that handles cronjobs.",
             "keywords": [
+                "docs",
                 "farah-module",
                 "slothsoft"
             ],
@@ -720,17 +771,17 @@
         },
         {
             "name": "slothsoft/dragonage",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-dragonage",
-                "reference": "885e6fe2de55af9f5ba59578d44a79716e99db5c",
+                "reference": "3246f3578c6372db74d24645deb7666445418e55",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -769,15 +820,16 @@
         },
         {
             "name": "slothsoft/farah",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-farah",
-                "reference": "f6a74e0d12a2f626359aa4bbf544c274f7ab3c84",
+                "reference": "6ea7743f64f4a61a8673c428c35c5b67044adbab",
                 "shasum": null
             },
             "require": {
                 "guzzlehttp/psr7": "^1.4",
+                "krakjoe/pthreads-polyfill": "^1.1",
                 "matthiasmullie/minify": "^1.3",
                 "php": "^7.2",
                 "php-ds/php-ds": "^1.2",
@@ -785,15 +837,19 @@
                 "psr/container": "^1.0",
                 "psr/http-message": "^1.0",
                 "psr/log": "^1.0",
-                "slothsoft/blob": "dev-master",
-                "slothsoft/core": "dev-master"
+                "slothsoft/blob": "^1.0",
+                "slothsoft/core": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
             },
             "suggest": {
-                "ext-ds": "*"
+                "ext-ds": "*",
+                "ext-pthreads": "*"
             },
+            "bin": [
+                "bin/farah-asset"
+            ],
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -830,17 +886,17 @@
         },
         {
             "name": "slothsoft/fireemblem",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-fireemblem",
-                "reference": "8a36d514825b592fb9dfcec93488d0c9bbc168f6",
+                "reference": "1e511f0c80ca22d2b0e544bcbd89f45f6a96b099",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -880,17 +936,17 @@
         },
         {
             "name": "slothsoft/lang",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-lang",
-                "reference": "9ddf63d05258a78b5ecbeb94331786f6ad589f6e",
+                "reference": "3c63bf60e5984fdf7896e021f8fa12badec4320a",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -930,18 +986,18 @@
         },
         {
             "name": "slothsoft/minecraft",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-minecraft",
-                "reference": "f43b7761dda1ce6df64d65cfa04a4be9fe73049b",
+                "reference": "3e1703e631311b68832c91356541480fc76166bc",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/chat": "dev-master",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/chat": "^1.0",
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -981,19 +1037,19 @@
         },
         {
             "name": "slothsoft/mtg",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-mtg",
-                "reference": "c24d8a26d36db10be59fcb6e0f618652570942df",
+                "reference": "a88f46a65ddea9cb59262570b20c7f516f4c5cd5",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/chat": "dev-master",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master",
-                "slothsoft/w3c": "dev-master"
+                "slothsoft/chat": "^1.0",
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0",
+                "slothsoft/w3c": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1033,18 +1089,18 @@
         },
         {
             "name": "slothsoft/pokemon",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-pokemon",
-                "reference": "35d7fcd19474e28a28241a82df4858e4483ab0cf",
+                "reference": "250218724733d1cec02081ee4ba0ced8767e4e61",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/chat": "dev-master",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/chat": "^1.0",
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1083,18 +1139,18 @@
         },
         {
             "name": "slothsoft/savegame",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-savegame",
-                "reference": "4610cb28e0aa3d1d9b895cdbcddef0d98bd360a4",
+                "reference": "f6a58ddaa60a7ab8b53f80a013ed67f896d36142",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
                 "php-ds/php-ds": "^1.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1137,17 +1193,17 @@
         },
         {
             "name": "slothsoft/schema",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-schema",
-                "reference": "1309aad8a51ca82d8db6efc7ad6479d2ddb0f1aa",
+                "reference": "5adbd15fe8b4b1528e8fcc1759686f937951239d",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1187,18 +1243,18 @@
         },
         {
             "name": "slothsoft/sse",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-sse",
-                "reference": "7086cb8e7bab5c6eb61e6ba4d4633e92c807a3ca",
+                "reference": "d7a524d9ff7582ec3b11936a480f0e05e121e3cb",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
                 "psr/http-message": "^1.0",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1238,18 +1294,18 @@
         },
         {
             "name": "slothsoft/talesof",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-talesof",
-                "reference": "b739e835d9cfc3b64552a9d7903d12c91f0a6ada",
+                "reference": "3cc9df70f3219bc16564195043d3dfe398b8e660",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/chat": "dev-master",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/chat": "^1.0",
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1289,17 +1345,17 @@
         },
         {
             "name": "slothsoft/tetris",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-tetris",
-                "reference": "027527f98a8bb846ead487a938fb9734ba2a00a1",
+                "reference": "7b75c18ca00bc54f44667a1fe05892cc413fb879",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1338,17 +1394,17 @@
         },
         {
             "name": "slothsoft/therapy",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-therapy",
-                "reference": "56750a3b17989da1fc4a671cbcfc374648ce95ec",
+                "reference": "af9847d61451c5450d7c3735b2d66d5c8ba5d026",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1388,17 +1444,17 @@
         },
         {
             "name": "slothsoft/twitter",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-twitter",
-                "reference": "d92bfcb40e3d950a5703e438cd4a69cfcb5f847f",
+                "reference": "34345c2c4921e8e25e7ecddd44ea6a879f58c42f",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1438,11 +1494,11 @@
         },
         {
             "name": "slothsoft/w3c",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-w3c",
-                "reference": "7227ed2e2800f79dd61ce382f212bafdf73d2e8d",
+                "reference": "dbb26add0a11f3dc1e3ac6a034c8ce3de8622ad5",
                 "shasum": null
             },
             "require": {
@@ -1482,19 +1538,19 @@
         },
         {
             "name": "slothsoft/webrtc",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-webrtc",
-                "reference": "3c453acd3bb7242b1bae438bbca3a2e8cfde7a28",
+                "reference": "dd9b4e39c34259eb882ec45d00377440f86f064f",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/chat": "dev-master",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master",
-                "slothsoft/sse": "dev-master"
+                "slothsoft/chat": "^1.0",
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0",
+                "slothsoft/sse": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1534,17 +1590,17 @@
         },
         {
             "name": "slothsoft/whatthehell",
-            "version": "9999999-dev",
+            "version": "1.0.0",
             "dist": {
                 "type": "path",
                 "url": "C:/Webserver/htdocs/workspace/slothsoft-whatthehell",
-                "reference": "9cd758f6685041b327c239830c148be86e108035",
+                "reference": "6982bb016c805dc083f6ef1ac583be2ea295318c",
                 "shasum": null
             },
             "require": {
                 "php": "^7.2",
-                "slothsoft/core": "dev-master",
-                "slothsoft/farah": "dev-master"
+                "slothsoft/core": "^1.0",
+                "slothsoft/farah": "^1.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^6.5"
@@ -1942,16 +1998,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "1.7.6",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "33a7e3c4fda54e912ff6338c48823bd5c0f0b712"
+                "reference": "4ba436b55987b4bf311cb7c6ba82aa528aac0a06"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/33a7e3c4fda54e912ff6338c48823bd5c0f0b712",
-                "reference": "33a7e3c4fda54e912ff6338c48823bd5c0f0b712",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/4ba436b55987b4bf311cb7c6ba82aa528aac0a06",
+                "reference": "4ba436b55987b4bf311cb7c6ba82aa528aac0a06",
                 "shasum": ""
             },
             "require": {
@@ -1963,12 +2019,12 @@
             },
             "require-dev": {
                 "phpspec/phpspec": "^2.5|^3.2",
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5 || ^7.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.7.x-dev"
+                    "dev-master": "1.8.x-dev"
                 }
             },
             "autoload": {
@@ -2001,7 +2057,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2018-04-18T13:57:24+00:00"
+            "time": "2018-08-05T17:53:17+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2254,16 +2310,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "6.5.8",
+            "version": "6.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "4f21a3c6b97c42952fd5c2837bb354ec0199b97b"
+                "reference": "7bab54cb366076023bbf457a2a0d513332cd40f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4f21a3c6b97c42952fd5c2837bb354ec0199b97b",
-                "reference": "4f21a3c6b97c42952fd5c2837bb354ec0199b97b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/7bab54cb366076023bbf457a2a0d513332cd40f2",
+                "reference": "7bab54cb366076023bbf457a2a0d513332cd40f2",
                 "shasum": ""
             },
             "require": {
@@ -2281,7 +2337,7 @@
                 "phpunit/php-file-iterator": "^1.4.3",
                 "phpunit/php-text-template": "^1.2.1",
                 "phpunit/php-timer": "^1.0.9",
-                "phpunit/phpunit-mock-objects": "^5.0.5",
+                "phpunit/phpunit-mock-objects": "^5.0.9",
                 "sebastian/comparator": "^2.1",
                 "sebastian/diff": "^2.0",
                 "sebastian/environment": "^3.1",
@@ -2334,20 +2390,20 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-04-10T11:38:34+00:00"
+            "time": "2018-08-07T07:05:35+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
-            "version": "5.0.7",
+            "version": "5.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "3eaf040f20154d27d6da59ca2c6e28ac8fd56dce"
+                "reference": "cd1cf05c553ecfec36b170070573e540b67d3f1f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/3eaf040f20154d27d6da59ca2c6e28ac8fd56dce",
-                "reference": "3eaf040f20154d27d6da59ca2c6e28ac8fd56dce",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/cd1cf05c553ecfec36b170070573e540b67d3f1f",
+                "reference": "cd1cf05c553ecfec36b170070573e540b67d3f1f",
                 "shasum": ""
             },
             "require": {
@@ -2360,7 +2416,7 @@
                 "phpunit/phpunit": "<6.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^6.5"
+                "phpunit/phpunit": "^6.5.11"
             },
             "suggest": {
                 "ext-soap": "*"
@@ -2393,7 +2449,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2018-05-29T13:50:43+00:00"
+            "time": "2018-08-09T05:50:03+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
@@ -3047,31 +3103,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "slothsoft/amber": 20,
-        "slothsoft/blob": 20,
-        "slothsoft/chat": 20,
-        "slothsoft/comics": 20,
-        "slothsoft/core": 20,
-        "slothsoft/cron": 20,
-        "slothsoft/dragonage": 20,
-        "slothsoft/farah": 20,
-        "slothsoft/fireemblem": 20,
-        "slothsoft/lang": 20,
-        "slothsoft/minecraft": 20,
-        "slothsoft/mtg": 20,
-        "slothsoft/pokemon": 20,
-        "slothsoft/savegame": 20,
-        "slothsoft/schema": 20,
-        "slothsoft/sse": 20,
-        "slothsoft/talesof": 20,
-        "slothsoft/tetris": 20,
-        "slothsoft/therapy": 20,
-        "slothsoft/twitter": 20,
-        "slothsoft/w3c": 20,
-        "slothsoft/webrtc": 20,
-        "slothsoft/whatthehell": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

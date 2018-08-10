@@ -10,13 +10,13 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-minecraft"/>
+	
 	<buildpathentry kind="src" path="vendor/sebastian/code-unit-reverse-lookup/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-webrtc"/>
+	
 	<buildpathentry kind="src" path="vendor/phpunit/php-text-template/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -27,27 +27,27 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-talesof"/>
+	
 	<buildpathentry kind="src" path="vendor/matthiasmullie/path-converter/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-cron"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-therapy"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/>
+	
+	
+	
 	<buildpathentry kind="src" path="vendor/phpunit/php-code-coverage/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-mtg"/>
+	
 	<buildpathentry kind="src" path="vendor/psr/log/Psr/Log">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-schema"/>
+	
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
 	<buildpathentry kind="src" path="vendor/sebastian/diff/src">
 		<attributes>
@@ -59,7 +59,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/>
+	
 	<buildpathentry kind="src" path="vendor/sebastian/comparator/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -75,7 +75,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-savegame"/>
+	
 	<buildpathentry kind="src" path="vendor/phpdocumentor/reflection-docblock/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -86,8 +86,8 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-tetris"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-comics"/>
+	
+	
 	<buildpathentry kind="src" path="vendor/sebastian/global-state/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -98,8 +98,8 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-pokemon"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-chat"/>
+	
+	
 	<buildpathentry kind="src" path="vendor/sebastian/environment/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -120,8 +120,8 @@
 			<attribute name="composer" value="source"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-dragonage"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-fireemblem"/>
+	
+	
 	<buildpathentry kind="src" path="vendor/sebastian/object-reflector/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -132,7 +132,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-sse"/>
+	
 	<buildpathentry kind="src" path="vendor/psr/cache/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -143,7 +143,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-lang"/>
+	
 	<buildpathentry kind="src" path="vendor/sebastian/version/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -184,7 +184,7 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-w3c"/>
+	
 	<buildpathentry kind="src" path="vendor/phpunit/php-timer/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -195,14 +195,14 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-amber"/>
+	
 	<buildpathentry kind="src" path="vendor/composer">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-whatthehell"/>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-twitter"/>
+	
+	
 	<buildpathentry kind="src" path="vendor/phpunit/php-token-stream/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
@@ -213,10 +213,10 @@
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-	<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-blob"/>
+	
 	<buildpathentry kind="src" path="vendor/phpdocumentor/reflection-common/src">
 		<attributes>
 			<attribute name="composer" value="vendor"/>
 		</attributes>
 	</buildpathentry>
-</buildpath>
+<buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-amber"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-blob"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-chat"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-comics"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-core"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-cron"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-dragonage"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-farah"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-fireemblem"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-lang"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-minecraft"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-mtg"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-pokemon"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-savegame"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-schema"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-sse"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-talesof"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-tetris"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-therapy"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-twitter"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-w3c"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-webrtc"/><buildpathentry combineaccessrules="false" kind="prj" path="/slothsoft-whatthehell"/></buildpath>

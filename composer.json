@@ -17,29 +17,29 @@
     },
     "require": {
         "php": "^7.2",
-        "slothsoft/amber": "dev-master",
-        "slothsoft/blob": "dev-master",
-        "slothsoft/chat": "dev-master",
-        "slothsoft/comics": "dev-master",
-        "slothsoft/core": "dev-master",
-        "slothsoft/cron": "dev-master",
-        "slothsoft/dragonage": "dev-master",
-        "slothsoft/farah": "dev-master",
-        "slothsoft/fireemblem": "dev-master",
-        "slothsoft/lang": "dev-master",
-        "slothsoft/minecraft": "dev-master",
-        "slothsoft/mtg": "dev-master",
-        "slothsoft/pokemon": "dev-master",
-        "slothsoft/savegame": "dev-master",
-        "slothsoft/schema": "dev-master",
-        "slothsoft/sse": "dev-master",
-        "slothsoft/talesof": "dev-master",
-        "slothsoft/tetris": "dev-master",
-        "slothsoft/therapy": "dev-master",
-        "slothsoft/twitter": "dev-master",
-        "slothsoft/w3c": "dev-master",
-        "slothsoft/webrtc": "dev-master",
-        "slothsoft/whatthehell": "dev-master"
+        "slothsoft/amber": "*",
+        "slothsoft/blob": "*",
+        "slothsoft/chat": "*",
+        "slothsoft/comics": "*",
+        "slothsoft/core": "*",
+        "slothsoft/cron": "*",
+        "slothsoft/dragonage": "*",
+        "slothsoft/farah": "*",
+        "slothsoft/fireemblem": "*",
+        "slothsoft/lang": "*",
+        "slothsoft/minecraft": "*",
+        "slothsoft/mtg": "*",
+        "slothsoft/pokemon": "*",
+        "slothsoft/savegame": "*",
+        "slothsoft/schema": "*",
+        "slothsoft/sse": "*",
+        "slothsoft/talesof": "*",
+        "slothsoft/tetris": "*",
+        "slothsoft/therapy": "*",
+        "slothsoft/twitter": "*",
+        "slothsoft/w3c": "*",
+        "slothsoft/webrtc": "*",
+        "slothsoft/whatthehell": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "^6.5"
@@ -54,5 +54,6 @@
     "prefer-stable": true,
     "scripts": {
         "post-autoload-dump": "Slothsoft\\Core\\ServerEnvironment::cleanCacheDirectory"
-    }
+    },
+    "version": "1.0.0"
 }
