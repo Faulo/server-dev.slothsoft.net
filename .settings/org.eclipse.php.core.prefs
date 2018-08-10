@@ -1,3 +1,4 @@
 eclipse.preferences.version=1
+include_path=2;/slothsoft-amber\u00052;/slothsoft-blob\u00052;/slothsoft-chat\u00052;/slothsoft-comics\u00052;/slothsoft-core\u00052;/slothsoft-cron\u00052;/slothsoft-dragonage\u00052;/slothsoft-farah\u00052;/slothsoft-fireemblem\u00052;/slothsoft-lang\u00052;/slothsoft-minecraft\u00052;/slothsoft-mtg\u00052;/slothsoft-pokemon\u00052;/slothsoft-savegame\u00052;/slothsoft-schema\u00052;/slothsoft-sse\u00052;/slothsoft-talesof\u00052;/slothsoft-tetris\u00052;/slothsoft-therapy\u00052;/slothsoft-twitter\u00052;/slothsoft-w3c\u00052;/slothsoft-webrtc\u00052;/slothsoft-whatthehell
 phpVersion=php7.2
 useShortTags=false
