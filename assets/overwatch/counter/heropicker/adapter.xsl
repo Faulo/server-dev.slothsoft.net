@@ -10,7 +10,7 @@
 	xmlns:str="http://exslt.org/strings"
 	extension-element-prefixes="lio exsl func str">
 
-	<xsl:import href="farah://slothsoft@dev/overwatch/counter/counter-list" />
+	<xsl:import href="farah://slothsoft@dev.slothsoft.net/overwatch/counter/counter-list" />
 
 	<xsl:variable name="sourceTable" select="$source//*[@class='counter-table']" />
 

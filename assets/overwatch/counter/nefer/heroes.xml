@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hero-list>
+	<hero name="Ana">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Bastion">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Brigitte">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="D.VA">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Doomfist">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Genji">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Hanzo">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Junkrat">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Lucio">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="McCree">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Mei">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Mercy">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Moira">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Orisa">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Pharah">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Reaper">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Reinhardt">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Roadhog">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Soldier: 76">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Sombra">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Symmetra">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Torbjorn">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Tracer">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Widowmaker">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Winston">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Zarya">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+	<hero name="Zenyatta">
+		<excellent-against></excellent-against>
+		<good-against></good-against>
+		<bad-against></bad-against>
+		<miserable-against></miserable-against>
+	</hero>
+</hero-list>

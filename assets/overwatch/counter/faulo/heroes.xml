@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hero-list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="heroes.xsd">
+	
+	<hero name="Ana" excellent-against="" good-against="D.VA Pharah" role="healer" range="sniper" row="back" />
+	<hero name="Bastion" excellent-against="Reinhardt Winston Orisa WreckingBall Roadhog" good-against="D.VA Zarya" role="dps " row="center" range="medium"/>
+	<hero name="Brigitte" excellent-against="" good-against="Genji Roadhog Zenyatta" role="healer" row="front" range="melee"/>
+	<hero name="D.VA" excellent-against="Widowmaker" good-against="Zenyatta" role="tank" row="flank" range="close" />
+	<hero name="Doomfist" excellent-against="Zenyatta" good-against="" role="dps" row="flank" range="melee"/>
+	<hero name="Genji" excellent-against="Zenyatta Bastion" good-against="" role="dps" row="flank" range="close"/>
+	<hero name="Hanzo" excellent-against="" good-against="Bastion" range="long" row="back" role="dps"/>
+	<hero name="Junkrat" excellent-against="Brigitte Reinhardt " good-against="Reaper" role="dps" row="center" range="medium"/>
+	<hero name="Lucio" excellent-against="" good-against="Junkrat Pharah" role="healer" row="center" range="medium"/>
+	<hero name="McCree" excellent-against="Pharah" good-against="" role="dps" row="center" range="long"/>
+	<hero name="Mei" excellent-against="Genji" good-against="Tracer Zenyatta" role="dps" row="center" range="close"/>
+	<hero name="Mercy" excellent-against="" good-against="Reinhardt" role="healer" row="center" range="close"/>
+	<hero name="Moira" excellent-against="" good-against="Genji" role="healer" row="center" range="close"/>
+	<hero name="Orisa" excellent-against="" good-against="Reinhardt" role="tank" row="front" range="medium"/>
+	<hero name="Pharah" excellent-against="Reinhardt" good-against="Junkrat Reaper Brigitte Mei" role="dps" row="flank" range="long"/>
+	<hero name="Reaper" excellent-against="D.VA Reinhardt Winston Roadhog Orisa" good-against="Zarya WreckingBall" role="dps" row="center" range="close"/>
+	<hero name="Reinhardt" excellent-against="" good-against="McCree Widowmaker Soldier:76 Zenyatta Ana Hanzo" role="tank" row="front" range="melee"/>
+	<hero name="Roadhog" excellent-against="Genji" good-against="Tracer D.VA Doomfist Winston WreckingBall" role="tank" row="front" range="close"/>
+	<hero name="Soldier:76" excellent-against="Pharah" good-against="Reaper Mercy" role="dps" row="center" range="medium"/>
+	<hero name="Sombra" excellent-against="Zenyatta" good-against="Mercy" role="dps" row="flank" range="close"/>
+	<hero name="Symmetra" excellent-against="" good-against="Reinhardt" role="dps" row="center" range="close"/>
+	<hero name="Torbjorn" excellent-against="" good-against="Tracer" role="dps" row="center" range="medium"/>
+	<hero name="Tracer" excellent-against="Zenyatta Ana" good-against="" role="dps" row="flank" range="close"/>
+	<hero name="Widowmaker" excellent-against="Zenyatta Mercy Pharah" good-against="Bastion" role="dps" row="back" range="sniper"/>
+	<hero name="Winston" excellent-against="Widowmaker Zenyatta" good-against="" role="tank" row="front" range="melee"/>
+	<hero name="WreckingBall" excellent-against="Widowmaker Zenyatta" good-against="" role="tank" row="flank" range="close"/>
+	<hero name="Zarya" excellent-against="" good-against="Junkrat" role="tank" row="front" range="close"/>
+	<hero name="Zenyatta" excellent-against="" good-against="Mercy" role="healer" row="back" range="long"/>
+</hero-list>

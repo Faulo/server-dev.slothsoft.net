@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<xsd:schema
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" attributeFormDefault="unqualified">
+	
+	<xsd:element name="hero-list">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="hero" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="hero">
+		<xsd:complexType>
+			<xsd:attribute name="name" type="hero.name" use="required"/>
+			<xsd:attribute name="role" type="hero.role" use="required"/>
+			<xsd:attribute name="range" type="hero.range" use="required"/>
+			<xsd:attribute name="row" type="hero.row" use="required"/>
+			<xsd:attribute name="excellent-against" type="hero.names" use="required"/>
+			<xsd:attribute name="good-against" type="hero.names" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:simpleType name="hero.role">
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="healer" />
+			<xsd:enumeration value="tank" />
+			<xsd:enumeration value="dps" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="hero.range">
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="melee" />
+			<xsd:enumeration value="close" />
+			<xsd:enumeration value="medium" />
+			<xsd:enumeration value="long" />
+			<xsd:enumeration value="sniper" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="hero.row">
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="front" />
+			<xsd:enumeration value="center" />
+			<xsd:enumeration value="back" />
+			<xsd:enumeration value="flank" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="hero.name">
+		<xsd:restriction base="xsd:token">
+			<xsd:enumeration value="Ana" />
+			<xsd:enumeration value="Bastion" />
+			<xsd:enumeration value="Brigitte" />
+			<xsd:enumeration value="D.VA" />
+			<xsd:enumeration value="Doomfist" />
+			<xsd:enumeration value="Genji" />
+			<xsd:enumeration value="Hanzo" />
+			<xsd:enumeration value="Junkrat" />
+			<xsd:enumeration value="Lucio" />
+			<xsd:enumeration value="McCree" />
+			<xsd:enumeration value="Mei" />
+			<xsd:enumeration value="Mercy" />
+			<xsd:enumeration value="Moira" />
+			<xsd:enumeration value="Orisa" />
+			<xsd:enumeration value="Pharah" />
+			<xsd:enumeration value="Reaper" />
+			<xsd:enumeration value="Reinhardt" />
+			<xsd:enumeration value="Roadhog" />
+			<xsd:enumeration value="Soldier:76" />
+			<xsd:enumeration value="Sombra" />
+			<xsd:enumeration value="Symmetra" />
+			<xsd:enumeration value="Torbjorn" />
+			<xsd:enumeration value="Tracer" />
+			<xsd:enumeration value="Widowmaker" />
+			<xsd:enumeration value="Winston" />
+			<xsd:enumeration value="WreckingBall" />
+			<xsd:enumeration value="Zarya" />
+			<xsd:enumeration value="Zenyatta" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	
+	<xsd:simpleType name="hero.names">
+		<xsd:list itemType="hero.name"/>
+	</xsd:simpleType>
+</xsd:schema>

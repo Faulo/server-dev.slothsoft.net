@@ -42,64 +42,64 @@
     
     <fragment name="pages">
     	<fragment name="home">
-    		<use-template ref="/xsl/_home" name="_dvb"/>
+    		<use-template ref="/xsl/_home"/>
     	</fragment>
 	    <fragment name="dvb">
 	      <use-document ref="/static/dvb" name="dvb"/>
-	      <use-template ref="/xsl/_dvb" name="_dvb"/>
+	      <use-template ref="/xsl/_dvb"/>
 	    </fragment>
 	    <fragment name="poll">
 	      <use-document ref="/data/poll" name="poll"/>
-	      <use-template ref="/xsl/_poll" name="_poll"/>
+	      <use-template ref="/xsl/_poll"/>
 	    </fragment>
 	    <fragment name="smartphone">
 	      <use-document ref="/data/smartphone" name="smartphone"/>
-	      <use-template ref="/xsl/_smartphone" name="_smartphone"/>
+	      <use-template ref="/xsl/_smartphone"/>
 	    </fragment>
 	    <fragment name="swiss-wertvoll">
 	      <use-document ref="/data/swiss" name="swiss"/>
-	      <use-template ref="/xsl/_swiss" name="_swiss"/>
+	      <use-template ref="/xsl/_swiss"/>
 	    </fragment>
 	    <fragment name="pics">
-	      <import ref="/api/default" name="default"/>
-	      <use-template ref="/xsl/pics" name="pics"/>
+	      <import ref="/api/default"/>
+	      <use-template ref="/xsl/pics"/>
 	      <use-document ref="/data/pics-upload" name="pics-upload"/>
 	      <use-document ref="/static/pics" name="pics"/>
 	    </fragment>
 	    <fragment name="pics2">
-	      <import ref="/api/default" name="default"/>
-	      <use-template ref="/xsl/pics" name="pics"/>
+	      <import ref="/api/default"/>
+	      <use-template ref="/xsl/pics"/>
 	      <use-document ref="/static/pics" name="pics"/>
 	    </fragment>
 	    <fragment name="fonts">
-	      <use-template ref="/xsl/fonts" name="fonts"/>
+	      <use-template ref="/xsl/fonts"/>
 	      <use-document ref="//slothsoft@slothsoft/static/fonts" name="fonts"/>
 	      <param name="standalone" scope="global"/>
 	    </fragment>
 	    <fragment name="fonts-test">
-	      <use-template ref="/xsl/fonts-test" name="fonts-test"/>
+	      <use-template ref="/xsl/fonts-test"/>
 	      <use-document ref="//slothsoft@slothsoft/static/fonts" name="fonts"/>
 	    </fragment>
 	    <fragment name="GameOfLife">
-	      <use-template ref="/xsl/_GameOfLife" name="_GameOfLife"/>
-	      <link-script ref="/js/GameOfLife" name="GameOfLife"/>
-	      <link-stylesheet ref="/css/GameOfLife" name="GameOfLife"/>
+	      <use-template ref="/xsl/_GameOfLife"/>
+	      <link-script ref="/js/GameOfLife"/>
+	      <link-stylesheet ref="/css/GameOfLife"/>
 	    </fragment>
 	    <fragment name="misc">
 	      <use-document ref="/static/misc" name="misc"/>
 	    </fragment>
 	    <fragment name="8bit">
-	      <use-template ref="/xsl/_8bit" name="_8bit"/>
+	      <use-template ref="/xsl/_8bit"/>
 	      <use-document ref="/static/8bit" name="8bit"/>
-	      <import ref="//slothsoft@core/api/HTML5" name="HTML5"/>
+	      <import ref="//slothsoft@core/api/HTML5"/>
 	      <param name="standalone" scope="global"/>
 	    </fragment>
 	    <fragment name="vc2">
-	      <use-template ref="/xsl/_vc2" name="_vc2"/>
+	      <use-template ref="/xsl/_vc2"/>
 	      <use-document ref="/static/vc2a" name="vc2a"/>
 	      <use-document ref="/static/vc2b" name="vc2b"/>
 	      <use-document ref="/static/vc2c" name="vc2c"/>
-	      <import ref="//slothsoft@core/api/HTML5" name="HTML5"/>
+	      <import ref="//slothsoft@core/api/HTML5"/>
 	      <param name="standalone" scope="global"/>
 	    </fragment>
 	 </fragment>   
@@ -107,8 +107,8 @@
     
     <fragment name="api">
 	    <fragment name="default">
-	      <link-stylesheet ref="//slothsoft@slothsoft/css/default" name="default"/>
-	      <link-stylesheet ref="//slothsoft@slothsoft/css/fonts" name="fonts"/>
+	      <link-stylesheet ref="//slothsoft@slothsoft/css/default"/>
+	      <link-stylesheet ref="//slothsoft@slothsoft/css/fonts"/>
 	    </fragment>
     </fragment>
     
